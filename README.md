@@ -39,9 +39,9 @@ filtering and detailing events, as well as association of descount coupons.
   - Title
   - Description (optional)
   - Date
-  - Type (remote or in-person)
-  - Location (if in-person)
+  - Remote
   - Event URL (if remote)
+  - Location (if not remote)
   - Image (optional)
 - [ ] The system must allow the user to associate one or more discount coupons
       with an event. Each coupon must contain the following fields:
