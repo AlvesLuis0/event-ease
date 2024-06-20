@@ -1,24 +1,54 @@
-# README
+![Event Ease banner](.images/banner.jpg)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# 🎟️ Event Ease
 
-Things you may want to cover:
+An application for managing technology events, allowing the registration, listing,
+filtering and detailing events, as well as association of descount coupons.
 
-* Ruby version
+![GitHub license](https://badgen.net/github/license/AlvesLuis0/event-ease)
+![GitHub commits](https://badgen.net/github/commits/AlvesLuis0/event-ease)
+![PRs Welcome](https://badgen.net/badge/PRs/welcome/green)
 
-* System dependencies
+#### 🚧 Event Ease 🚀 Under construction... 🚧
 
-* Configuration
+### ✅ Features
 
-* Database creation
+- [ ] Event registration
+- [ ] Event details view
+- [ ] Event viewing
+- [ ] Event filtering
+- [ ] Association of coupons with events
 
-* Database initialization
+[comment]: # "DEMO HERE"
 
-* How to run the test suite
+### ✋ Prerequisites
 
-* Services (job queues, cache servers, search engines, etc.)
+[comment]: # "PREREQUISITES HERE"
 
-* Deployment instructions
+### 🎲 Running
 
-* ...
+[comment]: # "RUNNING HERE"
+
+### 🛠 Technologies
+
+[comment]: # "TECHNOLOGIES HERE"
+
+### 💼 Requirements Gathering
+
+- [ ] The system must allow the user to register an event with following fields:
+  - Title
+  - Description (optional)
+  - Date
+  - Type (remote or in-person)
+  - Location (if in-person)
+  - Event URL (if remote)
+  - Image (optional)
+- [ ] The system must allow the user to associate one or more discount coupons
+      with an event. Each coupon must contain the following fields:
+  - Code
+  - Discount
+  - Expiration date (optional)
+- [ ] The system should only list events that have not yet happened, with pagination
+      and allow the user to filter by title, date or location
+
+![Diagram](.images/diagram.png)
